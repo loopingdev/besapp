@@ -9,8 +9,11 @@ class FooterComponent extends React.Component<RouterProps> {
         }
 
         return (
-            <React.Fragment>
-              
+             <React.Fragment>
+                <footer className="pg-footer">
+                    <span>All right reserved</span>
+                    <a href=""></a>
+                </footer>
             </React.Fragment>
         );
     }
